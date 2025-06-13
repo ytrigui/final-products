@@ -8,7 +8,7 @@ import {MatCard, MatCardActions, MatCardContent, MatCardHeader, MatCardModule} f
 @Component({
   selector: 'app-welcome',
   standalone: true,
-  imports: [CommonModule, MatCardHeader, MatCard, MatCardContent ,MatCardModule],
+  imports: [CommonModule,MatCardModule],
   templateUrl: './welcome.component.html',
   styleUrl: './welcome.component.scss'
 })

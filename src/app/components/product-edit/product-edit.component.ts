@@ -4,19 +4,13 @@ import {Product} from '../../models/product.model';
 import {ProductService} from '../../services/product.service';
 import {FormsModule} from '@angular/forms';
 import {NgIf} from '@angular/common';
-import {MatButton} from '@angular/material/button';
-import {MatFormField, MatInput, MatLabel} from '@angular/material/input';
+
 @Component({
   selector: 'app-product-edit',
   imports: [
     FormsModule,
     RouterLink,
-    NgIf,
-    MatButton,
-    MatFormField,
-    MatInput,
-    MatLabel,
-    MatFormField
+    NgIf
   ],
   standalone: true,
   templateUrl: './product-edit.component.html',
